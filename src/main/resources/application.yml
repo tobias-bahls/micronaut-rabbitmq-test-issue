@@ -1,0 +1,7 @@
+micronaut:
+  application:
+    name: rabbitmqtest
+  executors:
+    test:
+      type: fixed
+      number-of-threads: 15
